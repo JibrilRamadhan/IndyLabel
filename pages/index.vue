@@ -226,344 +226,344 @@
     </section>
 
     <!-- Elegant Portfolio Section -->
-<section id="portfolio" class="min-h-screen py-20 relative overflow-hidden bg-gray-900">
-    
-    <div class="fixed inset-0 luxury-gradient opacity-50 pointer-events-none"></div>
-    
+    <section id="portfolio" class="min-h-screen py-20 relative overflow-hidden bg-gray-900">
+        
+        <div class="fixed inset-0 luxury-gradient opacity-50 pointer-events-none"></div>
+        
 
-    <div class="absolute inset-0">
-        <div class="absolute top-32 left-20 w-72 h-72 bg-gradient-to-br from-purple-500/20 to-transparent rounded-full blur-3xl float"></div>
-        <div class="absolute top-64 right-32 w-64 h-64 bg-gradient-to-br from-blue-500/20 to-transparent rounded-full blur-2xl float-reverse"></div>
-        <div class="absolute bottom-40 left-32 w-80 h-80 bg-gradient-to-br from-indigo-500/15 to-transparent rounded-full blur-3xl float"></div>
-        
-        
-        <div class="absolute top-1/3 left-1/4 w-1 h-32 bg-gradient-to-b from-transparent via-white/20 to-transparent rotate-12 luxury-pulse"></div>
-        <div class="absolute top-1/2 right-1/3 w-1 h-24 bg-gradient-to-b from-transparent via-purple-400/30 to-transparent -rotate-12 luxury-pulse" style="animation-delay: 1s;"></div>
-        <div class="absolute bottom-1/3 left-1/2 w-1 h-20 bg-gradient-to-b from-transparent via-blue-400/30 to-transparent rotate-45 luxury-pulse" style="animation-delay: 2s;"></div>
-    </div>
-
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        
-        <div class="text-center mb-24 reveal">
-            <div class="mb-8">
-                <div class="inline-block luxury-icon diamond-spin mb-6">
-                    <div class="w-8 h-8 bg-gradient-to-br from-purple-400 to-blue-400 transform rotate-45"></div>
-                </div>
-            </div>
+        <div class="absolute inset-0">
+            <div class="absolute top-32 left-20 w-72 h-72 bg-gradient-to-br from-purple-500/20 to-transparent rounded-full blur-3xl float"></div>
+            <div class="absolute top-64 right-32 w-64 h-64 bg-gradient-to-br from-blue-500/20 to-transparent rounded-full blur-2xl float-reverse"></div>
+            <div class="absolute bottom-40 left-32 w-80 h-80 bg-gradient-to-br from-indigo-500/15 to-transparent rounded-full blur-3xl float"></div>
             
-            <h2 class="heading-font text-7xl md:text-9xl font-bold text-shimmer mb-8 leading-tight">
-                Portfolio
-            </h2>
             
-            <div class="max-w-4xl mx-auto">
-                <p class="body-font text-2xl text-white/90 mb-8 leading-relaxed font-light">
-                    Crafting exceptional experiences through 
-                    <span class="text-purple-300 font-medium">premium design</span> and 
-                    <span class="text-blue-300 font-medium">luxury partnerships</span>
-                </p>
-                
-                
-                <div class="flex flex-wrap justify-center gap-6 mb-12">
-                    <div class="glass-effect px-8 py-4 rounded-full slide-up-elegant body-font font-medium text-white" style="animation-delay: 0.2s;">
-                        Premium Partnerships
-                    </div>
-                    <div class="glass-effect px-8 py-4 rounded-full slide-up-elegant body-font font-medium text-white" style="animation-delay: 0.4s;">
-                        Luxury Materials
-                    </div>
-                    <div class="glass-effect px-8 py-4 rounded-full slide-up-elegant body-font font-medium text-white" style="animation-delay: 0.6s;">
-                        Precision Crafting
-                    </div>
-                </div>
-            </div>
+            <div class="absolute top-1/3 left-1/4 w-1 h-32 bg-gradient-to-b from-transparent via-white/20 to-transparent rotate-12 luxury-pulse"></div>
+            <div class="absolute top-1/2 right-1/3 w-1 h-24 bg-gradient-to-b from-transparent via-purple-400/30 to-transparent -rotate-12 luxury-pulse" style="animation-delay: 1s;"></div>
+            <div class="absolute bottom-1/3 left-1/2 w-1 h-20 bg-gradient-to-b from-transparent via-blue-400/30 to-transparent rotate-45 luxury-pulse" style="animation-delay: 2s;"></div>
         </div>
 
-       
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-24">
-            <div class="card-luxury rounded-3xl elegant-glow reveal" style="animation-delay: 0.2s;">
-                <div class="p-10 h-96 flex flex-col justify-between">
-                    <div class="text-center">
-                        <div class="luxury-icon mx-auto mb-8 luxury-pulse">
-                            <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58s1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41s-.23-1.06-.59-1.42zM13 20.01L4 11V4h7v-.01L20.01 13 13 20.01z"/>
-                                <circle cx="6.5" cy="6.5" r="1.5"/>
-                            </svg>
-                        </div>
-                        
-                        <h3 class="heading-font text-3xl font-semibold text-white mb-4">Premium Labels</h3>
-                        <p class="body-font text-white/80 text-lg mb-8 leading-relaxed">
-                            Precision-cut vinyl and paper labels with superior adhesion and durability
-                        </p>
-                        
-                        <div class="flex flex-wrap justify-center gap-3">
-                            <span class="glass-effect px-4 py-2 rounded-full text-sm text-white/90 body-font">Waterproof</span>
-                            <span class="glass-effect px-4 py-2 rounded-full text-sm text-white/90 body-font">UV Resistant</span>
-                        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            
+            <div class="text-center mb-24 reveal">
+                <div class="mb-8">
+                    <div class="inline-block luxury-icon diamond-spin mb-6">
+                        <div class="w-8 h-8 bg-gradient-to-br from-purple-400 to-blue-400 transform rotate-45"></div>
                     </div>
                 </div>
                 
-               
-                <div class="absolute inset-0 bg-gradient-to-br from-purple-900/95 to-black/95 opacity-0 hover:opacity-100 transition-all duration-700 flex items-center justify-center rounded-3xl">
-                    <div class="text-center p-8">
-                        <div class="luxury-icon mx-auto mb-6">
-                            <svg class="w-12 h-12 text-purple-300" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                            </svg>
+                <h2 class="heading-font text-7xl md:text-9xl font-bold text-shimmer mb-8 leading-tight">
+                    Portfolio
+                </h2>
+                
+                <div class="max-w-4xl mx-auto">
+                    <p class="body-font text-2xl text-white/90 mb-8 leading-relaxed font-light">
+                        Crafting exceptional experiences through 
+                        <span class="text-purple-300 font-medium">premium design</span> and 
+                        <span class="text-blue-300 font-medium">luxury partnerships</span>
+                    </p>
+                    
+                    
+                    <div class="flex flex-wrap justify-center gap-6 mb-12">
+                        <div class="glass-effect px-8 py-4 rounded-full slide-up-elegant body-font font-medium text-white" style="animation-delay: 0.2s;">
+                            Premium Partnerships
                         </div>
-                        <h4 class="heading-font text-2xl font-semibold text-white mb-4">Exceptional Quality</h4>
-                        <p class="body-font text-white/90 mb-6">Engineered for perfection with premium materials</p>
-                        <button class="glass-effect px-8 py-3 rounded-full text-white body-font font-medium hover:bg-white/20 transition-all">
-                            Explore Collection
+                        <div class="glass-effect px-8 py-4 rounded-full slide-up-elegant body-font font-medium text-white" style="animation-delay: 0.4s;">
+                            Luxury Materials
+                        </div>
+                        <div class="glass-effect px-8 py-4 rounded-full slide-up-elegant body-font font-medium text-white" style="animation-delay: 0.6s;">
+                            Precision Crafting
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-24">
+                <div class="card-luxury rounded-3xl elegant-glow reveal" style="animation-delay: 0.2s;">
+                    <div class="p-10 h-96 flex flex-col justify-between">
+                        <div class="text-center">
+                            <div class="luxury-icon mx-auto mb-8 luxury-pulse">
+                                <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58s1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41s-.23-1.06-.59-1.42zM13 20.01L4 11V4h7v-.01L20.01 13 13 20.01z"/>
+                                    <circle cx="6.5" cy="6.5" r="1.5"/>
+                                </svg>
+                            </div>
+                            
+                            <h3 class="heading-font text-3xl font-semibold text-white mb-4">Premium Labels</h3>
+                            <p class="body-font text-white/80 text-lg mb-8 leading-relaxed">
+                                Precision-cut vinyl and paper labels with superior adhesion and durability
+                            </p>
+                            
+                            <div class="flex flex-wrap justify-center gap-3">
+                                <span class="glass-effect px-4 py-2 rounded-full text-sm text-white/90 body-font">Waterproof</span>
+                                <span class="glass-effect px-4 py-2 rounded-full text-sm text-white/90 body-font">UV Resistant</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                
+                    <div class="absolute inset-0 bg-gradient-to-br from-purple-900/95 to-black/95 opacity-0 hover:opacity-100 transition-all duration-700 flex items-center justify-center rounded-3xl">
+                        <div class="text-center p-8">
+                            <div class="luxury-icon mx-auto mb-6">
+                                <svg class="w-12 h-12 text-purple-300" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                            </div>
+                            <h4 class="heading-font text-2xl font-semibold text-white mb-4">Exceptional Quality</h4>
+                            <p class="body-font text-white/90 mb-6">Engineered for perfection with premium materials</p>
+                            <button class="glass-effect px-8 py-3 rounded-full text-white body-font font-medium hover:bg-white/20 transition-all">
+                                Explore Collection
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            
+                <div class="card-luxury rounded-3xl elegant-glow reveal" style="animation-delay: 0.4s;">
+                    <div class="p-10 h-96 flex flex-col justify-between">
+                        <div class="text-center">
+                            <div class="luxury-icon mx-auto mb-8 luxury-pulse" style="animation-delay: 1s;">
+                                <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                                </svg>
+                            </div>
+                            
+                            <h3 class="heading-font text-3xl font-semibold text-white mb-4">Luxury Stickers</h3>
+                            <p class="body-font text-white/80 text-lg mb-8 leading-relaxed">
+                                Die-cut holographic stickers with prismatic effects and premium finishes
+                            </p>
+                            
+                            <div class="flex flex-wrap justify-center gap-3">
+                                <span class="glass-effect px-4 py-2 rounded-full text-sm text-white/90 body-font">Holographic</span>
+                                <span class="glass-effect px-4 py-2 rounded-full text-sm text-white/90 body-font">Premium Finish</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="absolute inset-0 bg-gradient-to-br from-blue-900/95 to-black/95 opacity-0 hover:opacity-100 transition-all duration-700 flex items-center justify-center rounded-3xl">
+                        <div class="text-center p-8">
+                            <div class="luxury-icon mx-auto mb-6">
+                                <svg class="w-12 h-12 text-blue-300" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                            </div>
+                            <h4 class="heading-font text-2xl font-semibold text-white mb-4">Prismatic Beauty</h4>
+                            <p class="body-font text-white/90 mb-6">Holographic technology that captures light magnificently</p>
+                            <button class="glass-effect px-8 py-3 rounded-full text-white body-font font-medium hover:bg-white/20 transition-all">
+                                View Designs
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-luxury rounded-3xl elegant-glow reveal" style="animation-delay: 0.6s;">
+                    <div class="p-10 h-96 flex flex-col justify-between">
+                        <div class="text-center">
+                            <div class="luxury-icon mx-auto mb-8 luxury-pulse" style="animation-delay: 2s;">
+                                <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M20 6h-2.18c.11-.31.18-.65.18-1a2.996 2.996 0 0 0-5.5-1.65l-.5.67-.5-.68C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-5-2c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zM9 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1z"/>
+                                </svg>
+                            </div>
+                            
+                            <h3 class="heading-font text-3xl font-semibold text-white mb-4">Industrial Solutions</h3>
+                            <p class="body-font text-white/80 text-lg mb-8 leading-relaxed">
+                                Food-grade and industrial labels engineered for extreme conditions
+                            </p>
+                            
+                            <div class="flex flex-wrap justify-center gap-3">
+                                <span class="glass-effect px-4 py-2 rounded-full text-sm text-white/90 body-font">Food Safe</span>
+                                <span class="glass-effect px-4 py-2 rounded-full text-sm text-white/90 body-font">Ultra Durable</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="absolute inset-0 bg-gradient-to-br from-green-900/95 to-black/95 opacity-0 hover:opacity-100 transition-all duration-700 flex items-center justify-center rounded-3xl">
+                        <div class="text-center p-8">
+                            <div class="luxury-icon mx-auto mb-6">
+                                <svg class="w-12 h-12 text-green-300" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12,17A2,2 0 0,0 14,15C14,13.89 13.1,13 12,13A2,2 0 0,0 10,15A2,2 0 0,0 12,17M18,8A2,2 0 0,1 20,10V20A2,2 0 0,1 18,22H6A2,2 0 0,1 4,20V10C4,8.89 4.9,8 6,8H7V6A5,5 0 0,1 12,1A5,5 0 0,1 17,6V8H18M12,3A3,3 0 0,0 9,6V8H15V6A3,3 0 0,0 12,3Z"/>
+                                </svg>
+                            </div>
+                            <h4 class="heading-font text-2xl font-semibold text-white mb-4">Uncompromising Strength</h4>
+                            <p class="body-font text-white/90 mb-6">Built to withstand the harshest environments</p>
+                            <button class="glass-effect px-8 py-3 rounded-full text-white body-font font-medium hover:bg-white/20 transition-all">
+                                Technical Specs
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="flex justify-center items-center space-x-12 mb-24 reveal" style="animation-delay: 0.8s;">
+                <div class="text-center">
+                    <div class="luxury-icon mx-auto mb-4 elegant-glow">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <p class="body-font text-white font-medium text-lg">Design</p>
+                </div>
+                
+                <div class="flex-1 h-px bg-gradient-to-r from-transparent via-white/40 to-transparent"></div>
+                
+                <div class="text-center">
+                    <div class="luxury-icon mx-auto mb-4 elegant-glow" style="animation-delay: 1s;">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                        </svg>
+                    </div>
+                    <p class="body-font text-white font-medium text-lg">Craft</p>
+                </div>
+                
+                <div class="flex-1 h-px bg-gradient-to-r from-transparent via-white/40 to-transparent"></div>
+                
+                <div class="text-center">
+                    <div class="luxury-icon mx-auto mb-4 elegant-glow" style="animation-delay: 2s;">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <p class="body-font text-white font-medium text-lg">Deliver</p>
+                </div>
+            </div>
+
+        
+            <div class="text-center reveal" style="animation-delay: 1s;">
+                <div class="max-w-4xl mx-auto">
+                    <h3 class="heading-font text-5xl font-semibold text-white mb-8 text-shimmer">
+                        Ready to Elevate Your Brand?
+                    </h3>
+                    <p class="body-font text-xl text-white/80 mb-12 leading-relaxed font-light max-w-2xl mx-auto">
+                        Join our distinguished clientele who trust us with their most important branding initiatives
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                        <button class="glass-effect px-12 py-4 rounded-full text-white body-font font-medium text-lg hover:bg-white/20 transition-all duration-500 elegant-glow">
+                            Begin Your Journey
+                        </button>
+                        <button class="border border-white/30 px-12 py-4 rounded-full text-white body-font font-medium text-lg hover:bg-white/10 hover:border-white/50 transition-all duration-500">
+                            View Our Work
                         </button>
                     </div>
                 </div>
             </div>
-
-          
-            <div class="card-luxury rounded-3xl elegant-glow reveal" style="animation-delay: 0.4s;">
-                <div class="p-10 h-96 flex flex-col justify-between">
-                    <div class="text-center">
-                        <div class="luxury-icon mx-auto mb-8 luxury-pulse" style="animation-delay: 1s;">
-                            <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
-                            </svg>
-                        </div>
-                        
-                        <h3 class="heading-font text-3xl font-semibold text-white mb-4">Luxury Stickers</h3>
-                        <p class="body-font text-white/80 text-lg mb-8 leading-relaxed">
-                            Die-cut holographic stickers with prismatic effects and premium finishes
-                        </p>
-                        
-                        <div class="flex flex-wrap justify-center gap-3">
-                            <span class="glass-effect px-4 py-2 rounded-full text-sm text-white/90 body-font">Holographic</span>
-                            <span class="glass-effect px-4 py-2 rounded-full text-sm text-white/90 body-font">Premium Finish</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="absolute inset-0 bg-gradient-to-br from-blue-900/95 to-black/95 opacity-0 hover:opacity-100 transition-all duration-700 flex items-center justify-center rounded-3xl">
-                    <div class="text-center p-8">
-                        <div class="luxury-icon mx-auto mb-6">
-                            <svg class="w-12 h-12 text-blue-300" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                            </svg>
-                        </div>
-                        <h4 class="heading-font text-2xl font-semibold text-white mb-4">Prismatic Beauty</h4>
-                        <p class="body-font text-white/90 mb-6">Holographic technology that captures light magnificently</p>
-                        <button class="glass-effect px-8 py-3 rounded-full text-white body-font font-medium hover:bg-white/20 transition-all">
-                            View Designs
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-luxury rounded-3xl elegant-glow reveal" style="animation-delay: 0.6s;">
-                <div class="p-10 h-96 flex flex-col justify-between">
-                    <div class="text-center">
-                        <div class="luxury-icon mx-auto mb-8 luxury-pulse" style="animation-delay: 2s;">
-                            <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M20 6h-2.18c.11-.31.18-.65.18-1a2.996 2.996 0 0 0-5.5-1.65l-.5.67-.5-.68C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-5-2c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zM9 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1z"/>
-                            </svg>
-                        </div>
-                        
-                        <h3 class="heading-font text-3xl font-semibold text-white mb-4">Industrial Solutions</h3>
-                        <p class="body-font text-white/80 text-lg mb-8 leading-relaxed">
-                            Food-grade and industrial labels engineered for extreme conditions
-                        </p>
-                        
-                        <div class="flex flex-wrap justify-center gap-3">
-                            <span class="glass-effect px-4 py-2 rounded-full text-sm text-white/90 body-font">Food Safe</span>
-                            <span class="glass-effect px-4 py-2 rounded-full text-sm text-white/90 body-font">Ultra Durable</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="absolute inset-0 bg-gradient-to-br from-green-900/95 to-black/95 opacity-0 hover:opacity-100 transition-all duration-700 flex items-center justify-center rounded-3xl">
-                    <div class="text-center p-8">
-                        <div class="luxury-icon mx-auto mb-6">
-                            <svg class="w-12 h-12 text-green-300" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M12,17A2,2 0 0,0 14,15C14,13.89 13.1,13 12,13A2,2 0 0,0 10,15A2,2 0 0,0 12,17M18,8A2,2 0 0,1 20,10V20A2,2 0 0,1 18,22H6A2,2 0 0,1 4,20V10C4,8.89 4.9,8 6,8H7V6A5,5 0 0,1 12,1A5,5 0 0,1 17,6V8H18M12,3A3,3 0 0,0 9,6V8H15V6A3,3 0 0,0 12,3Z"/>
-                            </svg>
-                        </div>
-                        <h4 class="heading-font text-2xl font-semibold text-white mb-4">Uncompromising Strength</h4>
-                        <p class="body-font text-white/90 mb-6">Built to withstand the harshest environments</p>
-                        <button class="glass-effect px-8 py-3 rounded-full text-white body-font font-medium hover:bg-white/20 transition-all">
-                            Technical Specs
-                        </button>
-                    </div>
-                </div>
-            </div>
         </div>
-
-        
-        <div class="flex justify-center items-center space-x-12 mb-24 reveal" style="animation-delay: 0.8s;">
-            <div class="text-center">
-                <div class="luxury-icon mx-auto mb-4 elegant-glow">
-                    <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                    </svg>
-                </div>
-                <p class="body-font text-white font-medium text-lg">Design</p>
-            </div>
-            
-            <div class="flex-1 h-px bg-gradient-to-r from-transparent via-white/40 to-transparent"></div>
-            
-            <div class="text-center">
-                <div class="luxury-icon mx-auto mb-4 elegant-glow" style="animation-delay: 1s;">
-                    <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
-                    </svg>
-                </div>
-                <p class="body-font text-white font-medium text-lg">Craft</p>
-            </div>
-            
-            <div class="flex-1 h-px bg-gradient-to-r from-transparent via-white/40 to-transparent"></div>
-            
-            <div class="text-center">
-                <div class="luxury-icon mx-auto mb-4 elegant-glow" style="animation-delay: 2s;">
-                    <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                    </svg>
-                </div>
-                <p class="body-font text-white font-medium text-lg">Deliver</p>
-            </div>
-        </div>
-
-       
-        <div class="text-center reveal" style="animation-delay: 1s;">
-            <div class="max-w-4xl mx-auto">
-                <h3 class="heading-font text-5xl font-semibold text-white mb-8 text-shimmer">
-                    Ready to Elevate Your Brand?
-                </h3>
-                <p class="body-font text-xl text-white/80 mb-12 leading-relaxed font-light max-w-2xl mx-auto">
-                    Join our distinguished clientele who trust us with their most important branding initiatives
-                </p>
-                
-                <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
-                    <button class="glass-effect px-12 py-4 rounded-full text-white body-font font-medium text-lg hover:bg-white/20 transition-all duration-500 elegant-glow">
-                        Begin Your Journey
-                    </button>
-                    <button class="border border-white/30 px-12 py-4 rounded-full text-white body-font font-medium text-lg hover:bg-white/10 hover:border-white/50 transition-all duration-500">
-                        View Our Work
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
 
 <!-- Founder Profile Section -->
-<section id="founder" class="py-20 bg-gray-900 relative overflow-hidden">
-    <!-- Background decorative elements -->
-    <div class="absolute top-0 left-1/2 transform -translate-x-1/2 w-96 h-96 bg-gradient-to-r from-purple-500/10 to-blue-500/10 rounded-full blur-3xl"></div>
-    
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div class="text-center mb-16 fade-in-up">
-            <h2 class="text-head text-4xl md:text-5xl font-bold text-purple-400 drop-shadow-[0_0_10px_#60A5FA] mb-4">
-                Meet Our Founder
-            </h2>
-            <p class="text-xl text-gray-300">
-                The visionary behind IndyLabel's success story
-            </p>
-        </div>
+    <section id="founder" class="py-20 bg-gray-900 relative overflow-hidden">
+        <!-- Background decorative elements -->
+        <div class="absolute top-0 left-1/2 transform -translate-x-1/2 w-96 h-96 bg-gradient-to-r from-purple-500/10 to-blue-500/10 rounded-full blur-3xl"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-16 fade-in-up">
+                <h2 class="text-head text-4xl md:text-5xl font-bold text-purple-400 drop-shadow-[0_0_10px_#60A5FA] mb-4">
+                    Meet Our Founder
+                </h2>
+                <p class="text-xl text-gray-300">
+                    The visionary behind IndyLabel's success story
+                </p>
+            </div>
 
-        <div class="max-w-4xl mx-auto">
-            <div class="bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 rounded-3xl p-8 md:p-12 fade-in-up">
-                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
-                    <!-- Profile Image -->
-                    <div class="lg:col-span-1 text-center">
-                        <div class="relative inline-block">
-                            <div class="w-48 h-48 mx-auto bg-gradient-to-br from-purple-500 via-blue-500 to-pink-500 rounded-full p-1 morphing-shape">
-                                <div class="w-full h-full bg-gray-800 rounded-full flex items-center justify-center">
-                                    <div class="text-6xl">👨‍💼</div>
-                                </div>
-                            </div>
-                            <div class="absolute -bottom-2 -right-2 w-16 h-16 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full flex items-center justify-center border-4 border-gray-800">
-                                <span class="text-2xl">🏆</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Profile Content -->
-                    <div class="lg:col-span-2">
-                        <div class="text-center lg:text-left">
-                            <h3 class="text-3xl font-bold text-white mb-2">Muhammad Octa Friansyah</h3>
-                            <p class="text-xl text-purple-400 mb-4">Founder & CEO of IndyLabel</p>
-                            
-                            <div class="flex flex-wrap justify-center lg:justify-start gap-3 mb-6">
-                                <span class="px-4 py-2 bg-purple-500/20 text-purple-300 rounded-full text-sm border border-purple-500/30">
-                                    🎨 Creative Director
-                                </span>
-                                <span class="px-4 py-2 bg-blue-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">
-                                    💼 Business Strategy
-                                </span>
-                                <span class="px-4 py-2 bg-green-500/20 text-green-300 rounded-full text-sm border border-green-500/30">
-                                    🔥 Innovation Leader
-                                </span>
-                            </div>
-
-                            <p class="text-gray-300 text-lg leading-relaxed mb-6">
-                                "With over 8 years of experience in the design and printing industry, I founded IndyLabel with a vision to provide affordable, high-quality label solutions. My passion is to help small businesses to enterprises look professional through attractive label designs."
-                            </p>
-
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                <div class="bg-gray-700/30 rounded-xl p-4 border border-gray-600/30">
-                                    <div class="flex items-center">
-                                        <span class="text-2xl mr-3">📈</span>
-                                        <div>
-                                            <div class="text-white font-semibold">8+ Years</div>
-                                            <div class="text-gray-400 text-sm">Industry Experience</div>
-                                        </div>
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 rounded-3xl p-8 md:p-12 fade-in-up">
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
+                        <!-- Profile Image -->
+                        <div class="lg:col-span-1 text-center">
+                            <div class="relative inline-block">
+                                <div class="w-48 h-48 mx-auto bg-gradient-to-br from-purple-500 via-blue-500 to-pink-500 rounded-full p-1 morphing-shape">
+                                    <div class="w-full h-full bg-gray-800 rounded-full flex items-center justify-center">
+                                        <div class="text-6xl">👨‍💼</div>
                                     </div>
                                 </div>
+                                <div class="absolute -bottom-2 -right-2 w-16 h-16 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full flex items-center justify-center border-4 border-gray-800">
+                                    <span class="text-2xl">🏆</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Profile Content -->
+                        <div class="lg:col-span-2">
+                            <div class="text-center lg:text-left">
+                                <h3 class="text-3xl font-bold text-white mb-2">Jibril Ramadhan</h3>
+                                <p class="text-xl text-purple-400 mb-4">Founder & CEO of IndyLabel</p>
                                 
-                                <div class="bg-gray-700/30 rounded-xl p-4 border border-gray-600/30">
-                                    <div class="flex items-center">
-                                        <span class="text-2xl mr-3">🎯</span>
-                                        <div>
-                                            <div class="text-white font-semibold">500+</div>
-                                            <div class="text-gray-400 text-sm">Projects Completed</div>
+                                <div class="flex flex-wrap justify-center lg:justify-start gap-3 mb-6">
+                                    <span class="px-4 py-2 bg-purple-500/20 text-purple-300 rounded-full text-sm border border-purple-500/30">
+                                        🎨 Creative Director
+                                    </span>
+                                    <span class="px-4 py-2 bg-blue-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">
+                                        💼 Business Strategy
+                                    </span>
+                                    <span class="px-4 py-2 bg-green-500/20 text-green-300 rounded-full text-sm border border-green-500/30">
+                                        🔥 Innovation Leader
+                                    </span>
+                                </div>
+
+                                <p class="text-gray-300 text-lg leading-relaxed mb-6">
+                                    "With over 8 years of experience in the design and printing industry, I founded IndyLabel with a vision to provide affordable, high-quality label solutions. My passion is to help small businesses to enterprises look professional through attractive label designs."
+                                </p>
+
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    <div class="bg-gray-700/30 rounded-xl p-4 border border-gray-600/30">
+                                        <div class="flex items-center">
+                                            <span class="text-2xl mr-3">📈</span>
+                                            <div>
+                                                <div class="text-white font-semibold">8+ Years</div>
+                                                <div class="text-gray-400 text-sm">Industry Experience</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="bg-gray-700/30 rounded-xl p-4 border border-gray-600/30">
+                                        <div class="flex items-center">
+                                            <span class="text-2xl mr-3">🎯</span>
+                                            <div>
+                                                <div class="text-white font-semibold">500+</div>
+                                                <div class="text-gray-400 text-sm">Projects Completed</div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Achievement Section -->
-                <div class="mt-12 pt-8 border-t border-gray-700/50">
-                    <h4 class="text-xl font-bold text-white mb-6 text-center">Achievements & Recognition</h4>
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                        <div class="text-center">
-                            <div class="w-16 h-16 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                                <span class="text-2xl">🏅</span>
+                    <!-- Achievement Section -->
+                    <div class="mt-12 pt-8 border-t border-gray-700/50">
+                        <h4 class="text-xl font-bold text-white mb-6 text-center">Achievements & Recognition</h4>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                            <div class="text-center">
+                                <div class="w-16 h-16 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-3">
+                                    <span class="text-2xl">🏅</span>
+                                </div>
+                                <h5 class="text-white font-semibold mb-2">Best Design Award</h5>
+                                <p class="text-gray-400 text-sm">Indonesia Print Excellence 2023</p>
                             </div>
-                            <h5 class="text-white font-semibold mb-2">Best Design Award</h5>
-                            <p class="text-gray-400 text-sm">Indonesia Print Excellence 2023</p>
-                        </div>
-                        
-                        <div class="text-center">
-                            <div class="w-16 h-16 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                                <span class="text-2xl">💡</span>
+                            
+                            <div class="text-center">
+                                <div class="w-16 h-16 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-3">
+                                    <span class="text-2xl">💡</span>
+                                </div>
+                                <h5 class="text-white font-semibold mb-2">Innovation Leader</h5>
+                                <p class="text-gray-400 text-sm">Creative Industry Summit 2024</p>
                             </div>
-                            <h5 class="text-white font-semibold mb-2">Innovation Leader</h5>
-                            <p class="text-gray-400 text-sm">Creative Industry Summit 2024</p>
-                        </div>
-                        
-                        <div class="text-center">
-                            <div class="w-16 h-16 bg-gradient-to-br from-green-400 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                                <span class="text-2xl">🌟</span>
+                            
+                            <div class="text-center">
+                                <div class="w-16 h-16 bg-gradient-to-br from-green-400 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-3">
+                                    <span class="text-2xl">🌟</span>
+                                </div>
+                                <h5 class="text-white font-semibold mb-2">Top Entrepreneur</h5>
+                                <p class="text-gray-400 text-sm">Young Business Leader 2024</p>
                             </div>
-                            <h5 class="text-white font-semibold mb-2">Top Entrepreneur</h5>
-                            <p class="text-gray-400 text-sm">Young Business Leader 2024</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="py-20 bg-gray-900">
@@ -641,15 +641,15 @@
                 <div class="col-span-1 md:col-span-2">
                     <div class="flex items-center mb-4">
                         <div class="relative">
-                            <div class="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl morphing-shape"></div>
-                            <div class="absolute inset-0 flex items-center justify-center">
-                                <span class="text-white font-bold text-lg">IL</span>
-                            </div>
+                            <div class="relative group w-16 h-16 flex items-center justify-center rounded-xl">
+                        <img src="../public/img/logov3.png" alt="logo" class="w-14 h-14 object-contain neon-logo group-hover:scale-105 transition-transform duration-300 ease-in-out">
+                        <div class="absolute inset-0 rounded-xl border-2 border-pink-500 blur-md opacity-30 animate-pulse"></div>
+                    </div>
                         </div>
                         <div class="ml-3">
-                            <h3 class="text-2xl font-bold gradient-text">INDY LABEL</h3>
-                            <p class="text-sm text-gray-400">Creative Design Studio</p>
-                        </div>
+                    <h1 class="text-logo text-2xl font-black neon-white">INDY LABEL</h1>
+                    <p class="text-xs text-gray-400 font-inter">Creative Design Studio</p>
+                </div>
                     </div>
                     <p class="text-gray-300 mb-4 max-w-md">
                         Transforming ideas into digital experiences that inspire and engage. 
