@@ -609,26 +609,52 @@
                 </div>
                 
                 <div class="slide-in-right">
-                    <form class="glass-effect p-8 rounded-2xl">
+                    <form @submit.prevent="submitForm" class="glass-effect p-8 rounded-2xl">
                         <div class="mb-6">
                             <label class="block text-sm font-medium text-gray-300 mb-2">Name</label>
-                            <input type="text" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-purple-500 text-white transition-colors duration-300">
+                            <input
+                            v-model="name"
+                            name="name"
+                            type="text"
+                            required
+                            class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-purple-500 text-white transition-colors duration-300"
+                            />
                         </div>
-                        
+
                         <div class="mb-6">
                             <label class="block text-sm font-medium text-gray-300 mb-2">Email</label>
-                            <input type="email" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-purple-500 text-white transition-colors duration-300">
+                            <input
+                            v-model="email"
+                            name="email"
+                            type="email"
+                            required
+                            class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-purple-500 text-white transition-colors duration-300"
+                            />
                         </div>
-                        
+
                         <div class="mb-6">
                             <label class="block text-sm font-medium text-gray-300 mb-2">Message</label>
-                            <textarea rows="4" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-purple-500 text-white transition-colors duration-300"></textarea>
+                            <textarea
+                            v-model="message"
+                            name="message"
+                            rows="4"
+                            required
+                            class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-purple-500 text-white transition-colors duration-300"
+                            ></textarea>
                         </div>
-                        
-                        <button type="submit" class="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white py-3 rounded-lg font-semibold hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 pulse-glow">
-                            Send Message
-                        </button>
-                    </form>
+
+                        <button
+                            type="submit"
+                            :disabled="isLoading"
+                            class="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white py-3 rounded-lg font-semibold hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 pulse-glow"
+                            >
+                            {{ buttonText }}
+                            </button>
+
+
+                        <p v-if="isSent" class="text-green-400 mt-4">Message sent successfully!</p>
+                        <p v-if="errorMessage" class="text-red-400 mt-2">{{ errorMessage }}</p>
+                        </form>
                 </div>
             </div>
         </div>
@@ -731,7 +757,6 @@
         .text-logo{
             font-family: 'Orbitron', 'sans-serif';
         }
-
         .textgradasi{
           background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);
             -webkit-background-clip: text;
@@ -744,108 +769,88 @@
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
-        
         .glass-effect {
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(20px);
             border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-        
+        }        
         .floating-animation {
             animation: floating 6s ease-in-out infinite;
-        }
-        
+        }       
         @keyframes floating {
             0% { transform: translate(0, 0px); }
             50% { transform: translate(0, -20px); }
             100% { transform: translate(0, 0px); }
-        }
-        
+        }        
         .pulse-glow {
             animation: pulse-glow 2s ease-in-out infinite alternate;
-        }
-        
+        }        
         @keyframes pulse-glow {
             from { box-shadow: 0 0 20px rgba(102, 126, 234, 0.5); }
             to { box-shadow: 0 0 40px rgba(102, 126, 234, 0.8), 0 0 60px rgba(118, 75, 162, 0.5); }
-        }
-        
+        }        
         .morphing-shape {
             animation: morph 8s ease-in-out infinite;
-        }
-        
+        }        
         @keyframes morph {
             0% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
             25% { border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%; }
             50% { border-radius: 50% 60% 30% 60% / 30% 60% 70% 40%; }
             75% { border-radius: 60% 40% 60% 30% / 40% 50% 60% 30%; }
             100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
-        }
-        
+        }        
         .slide-in-left {
             animation: slideInLeft 0.8s ease-out;
-        }
-        
+        }        
         @keyframes slideInLeft {
             from { transform: translateX(-100%); opacity: 0; }
             to { transform: translateX(0); opacity: 1; }
-        }
-        
+        }       
         .slide-in-right {
             animation: slideInRight 0.8s ease-out;
-        }
-        
+        }        
         @keyframes slideInRight {
             from { transform: translateX(100%); opacity: 0; }
             to { transform: translateX(0); opacity: 1; }
-        }
-        
+        }        
         .fade-in-up {
             animation: fadeInUp 1s ease-out;
-        }
-        
+        }       
         @keyframes fadeInUp {
             from { transform: translateY(30px); opacity: 0; }
             to { transform: translateY(0); opacity: 1; }
-        }
-        
+        }        
         .rotate-3d {
             animation: rotate3d 10s linear infinite;
-        }
-        
+        }        
         @keyframes rotate3d {
             from { transform: rotateX(0deg) rotateY(0deg); }
             to { transform: rotateX(360deg) rotateY(360deg); }
-        }
-        
+        }        
         .neon-glow {
             text-shadow: 0 0 5px rgba(102, 126, 234, 0.5),
                          0 0 10px rgba(102, 126, 234, 0.5),
                          0 0 15px rgba(102, 126, 234, 0.5),
                          0 0 20px rgba(102, 126, 234, 0.5);
         }
-
         .neon-white {
             text-shadow: 0 0 5px rgba(255, 255, 255, 0.5),
                          0 0 10px rgba(255, 255, 255, 0.5),
                          0 0 15px rgba(255, 255, 255, 0.5),
                          0 0 20px rgba(255, 255, 255, 0.5);
         }
-        
         .particle {
             position: absolute;
             background: linear-gradient(45deg, #667eea, #764ba2);
             border-radius: 50%;
             animation: particle-float 15s linear infinite;
         }
-        
         @keyframes particle-float {
             0% { transform: translateY(100vh) rotate(0deg); opacity: 0; }
             10% { opacity: 1; }
             90% { opacity: 1; }
             100% { transform: translateY(-100px) rotate(360deg); opacity: 0; }
         }
-        
         #three-container {
             position: absolute;
             top: 0; 
@@ -868,35 +873,29 @@
             filter: drop-shadow(0 0 4px #fff) drop-shadow(0 0 8px #c084fc) drop-shadow(0 0 12px #f472b6);
         }
         }
-
         .neon-glow1 {
         animation: glowPulse 2s infinite alternate;
         }
-
         .glass-effect1 {
             background: rgba(17, 25, 40, 0.75);
             backdrop-filter: blur(16px) saturate(180%);
             border: 1px solid rgba(255, 255, 255, 0.125);
             box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
         }
-
         .fade-in-up {
             opacity: 0;
             transform: translateY(50px);
             animation: fadeInUp 0.8s ease-out forwards;
         }
-
         @keyframes fadeInUp {
             to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
-
         .pulse-glow1 {
             animation: pulseGlow 2s ease-in-out infinite alternate;
         }
-
         @keyframes pulseGlow {
             from {
                 box-shadow: 0 0 20px rgba(147, 51, 234, 0.5);
@@ -905,13 +904,11 @@
                 box-shadow: 0 0 30px rgba(147, 51, 234, 0.8), 0 0 40px rgba(147, 51, 234, 0.3);
             }
         }
-
         .card-hover {
             transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             position: relative;
             overflow: hidden;
         }
-
         .card-hover::before {
             content: '';
             position: absolute;
@@ -922,33 +919,27 @@
             background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
             transition: left 0.6s;
         }
-
         .card-hover:hover::before {
             left: 100%;
         }
-
         .card-hover:hover {
             transform: translateY(-10px) scale(1.02);
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
         }
-
         .icon-float {
             animation: iconFloat 3s ease-in-out infinite;
         }
-
         @keyframes iconFloat {
             0%, 100% { transform: translateY(0px) rotate(0deg); }
             33% { transform: translateY(-10px) rotate(2deg); }
             66% { transform: translateY(-5px) rotate(-2deg); }
         }
-
         .text-gradient {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
-
         .service-number {
             position: absolute;
             top: -10px;
@@ -965,7 +956,6 @@
             font-size: 18px;
             box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
         }
-
         .progress-line {
             position: absolute;
             bottom: 0;
@@ -977,21 +967,17 @@
             transform-origin: left;
             transition: transform 0.8s ease-out;
         }
-
         .card-hover:hover .progress-line {
             transform: scaleX(1);
         }
-
         .stagger-1 { animation-delay: 0.1s; }
         .stagger-2 { animation-delay: 0.3s; }
         .stagger-3 { animation-delay: 0.5s; }
-
         @media (max-width: 768px) {
             .card-hover:hover {
                 transform: translateY(-5px) scale(1.01);
             }
         }
-
             .floating-bg {
                 position: absolute;
                 width: 100px;
@@ -1001,7 +987,6 @@
                 animation: floatingBg 4s ease-in-out infinite;
                 pointer-events: none;
             }
-
             @keyframes floatingBg {
                 0%, 100% { transform: translate(0, 0) scale(1); }
                 25% { transform: translate(20px, -20px) scale(1.1); }
@@ -1027,7 +1012,6 @@
                             inset 0 0 40px rgba(255, 255, 255, 0.15);
                 }
             }
-
             @keyframes rotate-elegant {
                 from { transform: rotate(0deg); }
                 to { transform: rotate(360deg); }
@@ -1046,7 +1030,6 @@
                 0% { background-position: -200% center; }
                 100% { background-position: 200% center; }
             }
-
             @keyframes luxury-pulse {
                 0%, 100% { 
                     transform: scale(1);
@@ -1057,7 +1040,6 @@
                     opacity: 1;
                 }
             }
-
             @keyframes diamond-spin {
                 0% { transform: rotate(0deg) scale(1); }
                 50% { transform: rotate(180deg) scale(1.1); }
@@ -1086,7 +1068,6 @@
                 position: relative;
                 overflow: hidden;
             }
-
             .card-luxury::before {
                 content: '';
                 position: absolute;
@@ -1098,20 +1079,16 @@
                 animation: rotate-elegant 8s linear infinite;
                 z-index: -1;
             }
-
             .card-luxury:hover {
                 transform: translateY(-20px) scale(1.05);
                 background: rgba(0, 0, 0, 0.5);
                 border-color: rgba(168, 85, 247, 0.5);
             }
-            
-
             .glass-effect {
                 background: rgba(255, 255, 255, 0.1);
                 backdrop-filter: blur(15px);
                 border: 1px solid rgba(255, 255, 255, 0.2);
             }
-
             .luxury-icon {
                 width: 80px;
                 height: 80px;
@@ -1124,7 +1101,6 @@
                 position: relative;
                 overflow: hidden;
             }
-
             .luxury-icon::before {
                 content: '';
                 position: absolute;
@@ -1136,11 +1112,9 @@
                 transform: rotate(45deg);
                 transition: all 0.6s ease;
             }
-
             .luxury-icon:hover::before {
                 animation: shimmer-sweep 1.5s ease-in-out;
             }
-
             @keyframes shimmer-sweep {
                 0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
                 100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
@@ -1149,7 +1123,6 @@
                 0%, 100% { transform: translateY(0px) rotate(0deg); }
                 50% { transform: translateY(-15px) rotate(2deg); }
             }
-
             @keyframes floatReverse {
                 0%, 100% { transform: translateY(0px) rotate(0deg); }
                 50% { transform: translateY(15px) rotate(-2deg); }
@@ -1161,6 +1134,7 @@
 import { onMounted } from 'vue'
 import * as THREE from 'three'
 import Logo3D from '../component/logo3D.vue'
+import emailjs from '@emailjs/browser'
 
 onMounted(() => {
   // Mobile menu toggle
@@ -1399,4 +1373,69 @@ onMounted(() => {
   }, 2000)
 })
 
-    </script>
+const name = ref('')
+const email = ref('')
+const message = ref('')
+const isSent = ref(false)
+const isLoading = ref(false)
+const errorMessage = ref('')
+const buttonText = ref('Send Message')
+
+const submitForm = async () => {
+  if (!name.value || !email.value || !message.value) {
+    errorMessage.value = 'Please fill in all fields.'
+    buttonText.value = 'Send Message'
+    isLoading.value = false
+
+    // Hilangkan errorMessage setelah 3 detik
+    setTimeout(() => {
+      errorMessage.value = ''
+    }, 3000)
+    return
+  }
+
+  isLoading.value = true
+  buttonText.value = 'Sending...'
+  errorMessage.value = ''
+
+  const templateParams = {
+    name: name.value,
+    email: email.value,
+    message: message.value
+  }
+
+  try {
+    await emailjs.send(
+      'service_ensuye8',
+      'template_ewywqwi',
+      templateParams,
+      '6-F0TVfDkUXzb-b3t'
+    )
+
+    isSent.value = true
+    buttonText.value = 'Message Sent'
+
+    // Reset form
+    name.value = ''
+    email.value = ''
+    message.value = ''
+
+    // Setelah 3 detik, hilangkan pesan sukses dan kembalikan tombol ke "Send Message"
+    setTimeout(() => {
+      isSent.value = false
+      buttonText.value = 'Send Message'
+    }, 3000)
+
+  } catch (error) {
+    errorMessage.value = 'Failed to send message. Please try again.'
+    buttonText.value = 'Send Message'
+
+    // Hilangkan pesan error setelah 3 detik
+    setTimeout(() => {
+      errorMessage.value = ''
+    }, 3000)
+  } finally {
+    isLoading.value = false
+  }
+}
+</script>
