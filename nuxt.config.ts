@@ -12,7 +12,19 @@ export default defineNuxtConfig({
   app: {
     head: {
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/1favicon.ico' },
+        { rel: 'icon', type: 'image/x-icon', href: '/logo/1favicon.ico' },
+        { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/logo/favicon-32x32.png' },
+        { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/logo/favicon-16x16.png' },
+
+        // Apple
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/logo/apple-touch-icon.png' },
+
+        // Android
+        { rel: 'icon', type: 'image/png', sizes: '192x192', href: '/logo/android-chrome-192x192.png' },
+        { rel: 'icon', type: 'image/png', sizes: '512x512', href: '/logo/android-chrome-512x512.png' },
+
+        // Manifest
+        { rel: 'manifest', href: '/logo/site.webmanifest' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
         {
