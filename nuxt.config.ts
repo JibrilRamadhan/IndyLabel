@@ -12,7 +12,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       link: [
-        // Gunakan import manual agar tidak bentrok
+        { rel: 'icon', type: 'image/x-icon', href: '/1favicon.ico' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
         {

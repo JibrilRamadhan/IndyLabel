@@ -1,4 +1,5 @@
 <template>
+<link rel="icon" href="../public/img/logov2.png" type="image/png">
 <div class="bg-gray-900 text-white overflow-x-hidden">
     <!-- Navigation -->
     <nav class="fixed top-0 w-full z-50 glass-effect transition-all scroll-smooth">
